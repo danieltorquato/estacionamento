@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Estacionamento</title>
+</head>
+<body>
+<form action="" method="get" class="form" onkeydown="vamu.teste()">
+<div class="validar">
+      <h1 class="valide">Valide seu ticket</h1>
+  
+<h3>Documento: <input type="search" placeholder="Digite seu CPF" class="cpf" id="cpf"> </h3>  <h3 class="matriculah">Matrícula: <input type="search" placeholder="Digite sua Matrícula" class="matricula"> </h3>
+
+<h3 class="nomeh">Nome: <input type="text" readonly class="nome"> </h3> 
+
+<img src="codigo-de-barras-ean-128.jpg" class="imgbig"> <br>
+<img src="tipos_de_codigos_de_barras_9.png" class="imgsmall">
+</div>
+<input type="submit" value="Consultar" id="consulta" class="consulta"> <br><br>
+<div class="instrucoes">
+    <h2>Instruções</h2>
+    <h6>TESTE</h6>
+</div>
+<h1 id="tickettext" class="ticketvalido"> <br> Ticket Válido</h1>
+<h1 id="tickettext" class="ticketinvalido"> <br> Ticket Inválido</h1>
+<h1 id="tickettext" class="ticketneutro"> <br> Aguardando Validação...</h1>
+</form>
+<script src="script.js"></script>
+</body>
+</html>

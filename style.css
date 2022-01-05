@@ -1,0 +1,111 @@
+.imgbig{
+    border: solid red 3px;
+    width: 250px;
+    position: relative;
+    left: 12%;
+    bottom: 50px;
+}
+.imgsmall{
+    width: 200px;
+    position: relative;
+    left: 14.5%;
+    bottom: 50px;
+}
+body{
+    margin: 0px;
+    background-color: rgb(34, 33, 33);
+}
+.form{
+    background-color: antiquewhite;
+    width: 1200px;
+    height: 795px;
+    position: relative;
+    left: 20%;
+}
+.ticketvalido{
+    font-size: 70pt;
+    color: green;
+    background-color: rgb(120, 209, 120);
+    height: 290px;
+    display: none;
+    position: relative;
+    bottom: 64%;
+    text-align: center;
+}
+.ticketinvalido{
+    font-size: 70pt;
+    color: rgb(255, 255, 255);
+    background-color: rgb(204, 24, 24);
+    height: 290px;
+    position: relative;
+    bottom: 64%;
+    text-align: center;
+    display: none;
+}
+.ticketneutro{
+    font-size: 70pt;
+    color: rgb(81, 132, 228);
+    background-color: rgba(178, 235, 218, 0.527);
+    height: 290px;
+    position: relative;
+    bottom: 64%;
+    text-align: center;
+   
+}
+.instrucoes{
+    position: relative;
+    left: 55%;
+    bottom: 510px;
+    width: 500px;
+   height: 442px;
+    text-align: center;
+}
+h6{
+    position: relative;
+
+    font-size: xx-large;
+}
+.validar{
+    position: relative;
+    left: 10%;
+
+}
+.cpf{
+    width: 150px;
+    height: 35px;
+    font-family: cursive;
+    font-size: large;
+}
+.nome{
+    width: 400px;
+    height: 35px;
+    font-family: cursive;
+    font-size: large;
+    position: relative;
+}
+.nomeh{
+    position: relative;
+    bottom: 50px;
+}
+.matricula{
+    width: 75px;
+    height: 35px;
+    position: relative;
+    left: 1%;
+    bottom: 0px;
+    font-family: cursive;
+    font-size: large;
+}
+.matriculah{
+    position: relative;
+    left: 22%;
+    bottom: 55px;
+}
+.valide{
+    position: relative;
+    left: 12%;
+}
+.consulta{
+    position: relative;
+    left: 30%;
+}
